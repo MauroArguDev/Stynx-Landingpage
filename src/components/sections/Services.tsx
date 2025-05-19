@@ -7,7 +7,6 @@ import web from '../../assets/images/web.svg'
 import consulting from '../../assets/images/consulting.svg'
 import uiux from '../../assets/images/ui-ux.svg'
 import prototyping from '../../assets/images/prototyping.png'
-import placeholderImage from '../../assets/images/logo.svg';
 import { ServicesCard } from '../elements/ServicesCard';
 
 export const Services = () => {
