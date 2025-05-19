@@ -16,10 +16,10 @@
 @import "tailwindcss";
 
 @theme {
-  --white: #F5F5F5;
-  --gray: #1F1F1F;
-  --red: #B91C1C;
-  --purple: #6B21A8;
+  --white: #f5f5f5;
+  --gray: #1f1f1f;
+  --red: #b91c1c;
+  --purple: #6b21a8;
   --font-chillax: Chillax, "sans-serif";
   --font-inter: Inter, "sans-serif";
   --font-inter-bold: Inter-Bold, "sans-serif";
@@ -38,11 +38,15 @@
   }
 
   .text-dark {
-    color: var(--gray)
+    color: var(--gray);
   }
 
   .text-light {
-    color: var(--white)
+    color: var(--white);
+  }
+
+  .red-background {
+    background-color: var(--red);
   }
 }
 
