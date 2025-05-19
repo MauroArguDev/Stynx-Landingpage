@@ -1,5 +1,12 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import apple from '../../assets/images/apple.svg'
+import android from '../../assets/images/android.svg'
+import cloud from '../../assets/images/cloud.svg'
+import web from '../../assets/images/web.svg'
+import consulting from '../../assets/images/consulting.svg'
+import uiux from '../../assets/images/ui-ux.svg'
+import prototyping from '../../assets/images/prototyping.png'
 import placeholderImage from '../../assets/images/logo.svg';
 import { ServicesCard } from '../elements/ServicesCard';
 
@@ -8,13 +15,13 @@ export const Services = () => {
     const isInView = useInView(ref, { once: true, margin: '-100px' });
 
     const services = [
-        { image: placeholderImage, title: 'Native Apple Apps', text: 'Designed for Apple users. Engineered for growth.' },
-        { image: placeholderImage, title: 'Native Android Apps', text: 'Real Android. Real code. Real results.' },
-        { image: placeholderImage, title: 'SAAS', text: 'Monetize your idea with software people actually love using.' },
-        { image: placeholderImage, title: 'Web Design', text: 'Your brand deserves more than a template.' },
-        { image: placeholderImage, title: 'Consulting', text: 'Not just code, strategy that saves time and money.' },
-        { image: placeholderImage, title: 'UI/UX Design', text: 'Interfaces that seduce. Experiences that retain.' },
-        { image: placeholderImage, title: 'Prototyping', text: 'From concept to demo in days, not months.' }
+        { image: apple, title: 'Native Apple Apps', text: 'Designed for Apple users. Engineered for growth.' },
+        { image: android, title: 'Native Android Apps', text: 'Real Android. Real code. Real results.' },
+        { image: cloud, title: 'SAAS', text: 'Monetize your idea with software people actually love using.' },
+        { image: web, title: 'Web Design', text: 'Your brand deserves more than a template.' },
+        { image: consulting, title: 'Consulting', text: 'Not just code, strategy that saves time and money.' },
+        { image: uiux, title: 'UI/UX Design', text: 'Interfaces that seduce. Experiences that retain.' },
+        { image: prototyping, title: 'Prototyping', text: 'From concept to demo in days, not months.' }
     ];
 
     return (
