@@ -10,7 +10,7 @@ interface ServicesCardProps {
 export const ServicesCard = ({ image, title, text }: ServicesCardProps) => {
     return (
         <motion.div 
-            className="rounded-2xl bg-gradient-to-r from-[#B91C1C] via-[#6B21A8] to-[#6B21A8] p-1 flex items-center justify-center h-45 w-60"
+            className="rounded-2xl bg-gradient-to-r from-[#B91C1C] via-[#6B21A8] to-[#6B21A8] p-1 flex items-center justify-center h-45 w-60 hover:scale-105"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}>
