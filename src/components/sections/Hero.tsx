@@ -3,6 +3,7 @@ import HeroBackground from '../../assets/images/hero-background.jpg'
 
 export const Hero = () => {
     return <section
+    id='home'
             className='relative min-h-screen bg-cover bg-center bg-no-repeat'
             style={{
                 backgroundImage: `url(${HeroBackground})`

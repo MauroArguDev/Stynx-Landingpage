@@ -44,6 +44,10 @@
   .text-light {
     color: var(--white);
   }
+
+  .red-background {
+    background-color: var(--red);
+  }
 }
 
 html {
