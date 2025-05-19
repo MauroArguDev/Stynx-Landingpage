@@ -8,7 +8,7 @@ interface ButtonLinkProps {
 
 export const ButtonLink = ({ href, text}: ButtonLinkProps) => {
     return (
-        <Link to={href} className="rounded-full outlin-none relative overflow-hidden">
+        <Link to={href} className="rounded-full outline-none relative overflow-hidden">
             <div className="items-center justify-center">
                 <div className="rounded-full bg-gradient-to-r from-[#B91C1C] via-[#6B21A8] to-[#6B21A8] p-1">
                     <div className="rounded-full bg-dark-section">
