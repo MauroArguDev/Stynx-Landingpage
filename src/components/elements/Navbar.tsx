@@ -1,6 +1,6 @@
 import logo from '../../assets/images/logo.svg';
 import { NavItem } from '../shared/NavItem';
-import { href, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ButtonLink } from './ButtonLink';
 import { useState } from 'react';
@@ -18,7 +18,7 @@ export const Navbar = () => {
 
     return (
         <motion.header 
-          className="fixed top-0 left-0 w-full flex justify-between items-center py-4 px-8 xl:px-24 xl:px-32 bg-dark-section z-50"
+          className="fixed top-0 left-0 w-full flex justify-between items-center py-4 px-8 xl:px-24 bg-dark-section z-50"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
